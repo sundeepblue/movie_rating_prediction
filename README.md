@@ -40,7 +40,8 @@ This step will generate a JSON file 'imdb_output.json' (20M) containing detailed
 
 It will also download all available posters for all movies.
 
-A total of 4907 posters can be downloaded (998MB)
+A total of 4907 posters can be downloaded (998MB). Note that I am not sure if I can upload all those posters into github,
+so I only uploaded a few. You can see from my code how to use scrapy to grab them all. 
 
 $ scrapy crawl imdb -o imdb_output.json
 
@@ -53,7 +54,6 @@ Perform face recognition to count face numbers from all posters
 This step will save result into JSON file 'image_and_facenumber_pair_list.json'
 
 $ python detect_faces_from_posters.py
-
 
 ===================================================================================
 # STEP 5: 
