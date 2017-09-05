@@ -1,10 +1,13 @@
 .===================================================================================
-    Predict IMDB movie rating
+# Predict IMDB movie rating
+
     by Chuan Sun (sundeepblue at gmail dot com)
+    
     https://twitter.com/sundeepblue
+    
     Scrapy project @ NYC Data Science Academy
+    
     8/14/2016
-.===================================================================================
 
 
 ===================================================================================
